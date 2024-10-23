@@ -93,11 +93,6 @@ def main():
                 print(f"{agents[i]} -> {tasks[j]}: Cost = {cost_matrix[i][j]}")
 
     cost_matrix, agents, tasks = balance_matrix(cost_matrix, agents, tasks)
-
-    print("\nInput Cost Matrix:")
-    for i in range(len(agents)):
-        for j in range(len(tasks)):
-            print(f"{agents[i]} -> {tasks[j]}: Cost = {cost_matrix[i][j]}")
     
     solve_assignment_problem(cost_matrix, agents, tasks)
 
