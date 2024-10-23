@@ -1,4 +1,3 @@
-# Assignment-problem
 # Assignment Problem Solver
 
 This program solves the assignment problem using linear programming. It allows users to input a cost matrix for assigning agents to tasks, or it can use a default cost matrix.
